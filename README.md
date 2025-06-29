@@ -91,10 +91,3 @@ docker compose up --build
 ```bash
 shuttle run --port 3000
 ```
-
-## ✅ 향후 개선 아이디어
-
-- [ ] JWT 기반 인증 시스템 추가
-- [ ] Redis Pub/Sub 도입 통한 확장성 강화
-- [ ] 채팅 메시지 DB 영속화
-- [ ] WebSocket 세션 관리 강화 (타임아웃, 핑 등)
