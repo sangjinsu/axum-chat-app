@@ -34,7 +34,7 @@ Rust + Axum 기반의 실시간 채팅 서버입니다. WebSocket을 통한 실�
 |------------------|----------------------------------------------|
 | 웹 프레임워크     | [Axum](https://github.com/tokio-rs/axum)     |
 | ORM              | [SeaORM](https://www.sea-ql.org/SeaORM/)     |
-| DB               | PostgreSQL 16                                |
+| DB               | PostgreSQL 15                               |
 | 비동기 런타임     | Tokio                                        |
 | 메시지 브로드캐스트 | tokio `broadcast::channel`                  |
 | 배포 환경         | Docker, Docker Compose                       |
